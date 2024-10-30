@@ -1,0 +1,15 @@
+FUNCTION MODIFIED_INSERTION_SORT(A)
+    n = LENGTH(A)
+    isSorted = TRUE
+    FOR i FROM 1 TO n - 1 DO
+        IF A[i] < A[i - 1] THEN
+            isSorted = FALSE
+            key = A[i]
+            j = i - 1
+            WHILE j >= 0 AND A[j] > key DO
+                A[j + 1] = A[j]
+                j = j - 1
+            A[j + 1] = key
+    IF isSorted THEN
+        RETURN A // Array is already sorted
+    RETURN A
