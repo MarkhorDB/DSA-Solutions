@@ -1,0 +1,5 @@
+FUNCTION LINEAR_SEARCH(A, n, x)
+    FOR i FROM 0 TO n - 1 DO
+        IF A[i] = x THEN
+            RETURN i  // x found at index i
+    RETURN -1  // x not found
