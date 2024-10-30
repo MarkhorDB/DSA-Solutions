@@ -1,0 +1,25 @@
+To determine for which values of nnn insertion sort beats merge sort, we compare their running times:
+Insertion sort: 8n28n^28n2
+
+Merge sort: 64nlog⁡n64n \log n64nlogn
+We want to find when:
+
+8n2<64nlog⁡n8n^2 < 64n \log n8n2<64nlogn
+Dividing by 8n8n8n gives:
+n<8log⁡nn < 8 \log nn<8logn
+
+Testing small integer values:
+For n=1n = 1n=1: False
+For n=2n = 2n=2: True
+For n=3n = 3n=3: True
+For n=4n = 4n=4: True
+For n=5n = 5n=5: True
+For n=6n = 6n=6: True
+For n=7n = 7n=7: True
+For n=8n = 8n=8: True
+For n=9n = 9n=9: True
+For n=10n = 10n=10: True
+For n=20n = 20n=20: True
+For n=30n = 30n=30: False
+
+Thus, insertion sort beats merge sort for nnn values typically up to about 30.
