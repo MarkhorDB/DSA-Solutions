@@ -1,0 +1,11 @@
+Space complexity measures the amount of memory an algorithm uses in terms of the input size. It is typically expressed in Big O notation, similar to time complexity.
+
+Common Space Complexities:
+O(1): Constant space (e.g., using a fixed number of variables).
+O(n): Linear space (e.g., storing an array of size n).
+O(n^2): Quadratic space (e.g., using a 2D array to store a matrix of size n x n).
+Matrix Multiplication
+Matrix multiplication is an operation that produces a matrix from two matrices. If you have two matrices, A (of size m x n) and B (of size n x p), the resulting matrix C will have dimensions m x p.
+
+Time Complexity
+The naive method for multiplying two matrices has a time complexity of O(m * n * p).
