@@ -1,0 +1,14 @@
+Common Time Complexities:
+O(1): Constant time – The algorithm takes the same amount of time regardless of input size. Example: Accessing an element in an array.
+
+O(log n): Logarithmic time – The time grows logarithmically as the input size increases. Example: Binary search in a sorted array.
+
+O(n): Linear time – The time grows linearly with the input size. Example: Traversing an array.
+
+O(n log n): Linearithmic time – Common in efficient sorting algorithms like mergesort and heapsort.
+
+O(n^2): Quadratic time – The time grows quadratically with the input size. Example: Bubble sort or insertion sort.
+
+O(2^n): Exponential time – The time doubles with each additional input element. Example: Solving the Fibonacci sequence using recursion.
+
+O(n!): Factorial time – Grows factorially with the input size. Example: Solving the traveling salesman problem using brute force.
