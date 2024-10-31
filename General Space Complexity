@@ -1,0 +1,6 @@
+Common Space Complexities:
+O(1): Constant space – Uses a fixed amount of space. Example: Simple variables.
+
+O(n): Linear space – Space grows linearly with input size. Example: Using an array to store n elements.
+
+O(n^2): Quadratic space – Space grows quadratically. Example: Storing a 2D array (matrix) with n x n elements.
