@@ -1,0 +1,5 @@
+def linear_function(n):
+    for i in range(n):
+        print(i)
+
+# Time complexity: O(n)
